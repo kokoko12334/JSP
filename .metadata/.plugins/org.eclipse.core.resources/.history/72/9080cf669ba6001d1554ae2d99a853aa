@@ -1,0 +1,37 @@
+<!DOCTYPE html>  <!--  현재문서가 html5 언어로작성한 웹문서 -->
+<html>
+
+<head>  <!-- 페이지의 속성과 정보설정 -->
+
+<meta charset="UTF-8">
+
+<title>Insert title here</title>
+
+</head>
+
+<body>
+
+	<!-- h는 제목태그 -->
+	<h1>a</h1>
+	<h2>aa</h2>
+	<h3>aaa</h3>
+	<h4>aaaa</h4>
+	<h5>aaaaa</h5>
+	<h6>aaaaa             a</h6>
+
+	<!-- p는 문단을 나타내는 태그 -->
+	<!-- br은 하나의 태그만 사용되며 다음 행을 표현하기 위한 태그 -->
+	<p> p태<br>그입니다.</p>
+
+
+
+
+	<h2> 특수문자 표현 </h2>
+
+
+
+
+
+</body>
+
+</html>

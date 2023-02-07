@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ex05</title>
+</head>
+<body>
+
+	<h2> 테이블 태그 - table</h2>
+	
+	<!-- tr은 하나의 행을 의미 -->
+	
+	<table> 
+	
+		<tr>ㅁㅁㅁ</tr>
+	
+	
+	
+	
+	</table>
+
+
+</body>
+</html>

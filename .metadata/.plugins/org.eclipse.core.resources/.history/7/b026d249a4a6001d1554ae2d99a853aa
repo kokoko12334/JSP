@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ex05</title>
+</head>
+<body>
+
+	<h2> 테이블 태그 - table</h2>
+	
+	<!-- tr은 하나의 행을 의미 -->
+	
+	<!-- border 설정으로 테두리 표시 -->
+	<table border = "5"> 
+	<!-- tr은 하나의 행을 의미 -->
+		<tr>
+		<th>.no</th>
+		<th>name</th>
+		<th>email</th>
+		<th>tel</th>
+		</tr>
+	
+		<tr>
+		<th>1</th>
+		<th>david</th>
+		<th>naver</th>
+		<th>010-33333</th>
+		</tr>
+	
+	
+	
+	
+	</table>
+
+
+</body>
+</html>

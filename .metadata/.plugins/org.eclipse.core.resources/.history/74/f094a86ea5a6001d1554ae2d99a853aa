@@ -1,0 +1,18 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ex06</title>
+</head>
+
+<body>
+
+<!-- div는 한 줄을 완전히 차지함. -->
+<div> hello</div> <div> html</div>
+
+
+
+</body>
+
+
+</html>

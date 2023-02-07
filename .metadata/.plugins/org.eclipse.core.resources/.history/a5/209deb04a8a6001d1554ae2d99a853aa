@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+
+<body>
+
+<table border = "2">
+	
+	<h2> 목록</h2>
+	
+	<tr>
+		<th>이름</th>
+		<td>나이</td>
+		<td>전화번호</td>
+		<td>취미</td>
+	</tr>
+	
+	
+	<tr>
+		<td>kmp</td>
+		<td>12</td>
+		<td>010-393930-33</td>
+		<td>취미1</td>
+	</tr>
+	
+	<tr>
+		<td>doe</td>
+		<td>20</td>
+		<td>0101-393910-=-333</td>
+		<td>취미2</td>
+	</tr>
+
+
+
+</table>
+
+
+</body>
+
+</html>
