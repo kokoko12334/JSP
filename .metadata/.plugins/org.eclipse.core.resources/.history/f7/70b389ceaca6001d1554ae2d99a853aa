@@ -1,0 +1,21 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ex08</title>
+</head>
+
+
+<body>
+	<h2> 이미지 태그 - img</h2>
+
+	<img alt="파일없음" src="../img/apple.JPG"> <!-- 상대경로 -->
+	
+	<img alt="파일없음" src="Exam01/img/apple.JPG"> <!-- 절대경로 -->
+	
+	
+</body>
+
+
+
+</html>

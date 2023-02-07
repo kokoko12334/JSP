@@ -1,0 +1,15 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	<h2> 링크 태그 </h2>
+	
+	<!-- 다른 페이지에 연결 target은 새창열기 -->
+	<a href = "https://www.naver.com" target = "_blank">naver</a>
+
+
+</body>
+</html>
