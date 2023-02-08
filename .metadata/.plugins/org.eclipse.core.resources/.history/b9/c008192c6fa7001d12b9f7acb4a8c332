@@ -1,0 +1,24 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>ex02</title>
+</head>
+<body>
+
+	<h3> 인라인 스타일시트</h3>
+
+	<hr>
+	
+	<h2> 내부 스타일시트</h2>
+	
+	<hr>
+	
+	<h1> 외부 스타일시트</h1>
+	
+	
+	
+	
+	
+</body>
+</html>

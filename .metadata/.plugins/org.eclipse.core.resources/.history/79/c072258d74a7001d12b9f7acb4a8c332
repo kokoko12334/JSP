@@ -1,0 +1,46 @@
+<!DOCTYPE html>
+
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>ex04</title>
+<style>
+	h1{
+		text-align:  center;
+	}
+
+	#text1{
+		border : 10px solid red;
+		width: 50%; 
+		margin: 0 auto;
+		text-align: center;
+	}
+	
+	
+	#text2{
+		border : 10px solid red;
+		width: 30%; 
+		margin: 30 auto;
+		text-align: center;
+	
+	}
+
+</style>
+
+
+</head>
+
+
+
+<body>
+	<h1> CSS 정렬</h1>
+	
+	<hr>
+	<h2 id = "text1"> css2 </h2>
+
+	<hr>
+	<h2 id = "text2">css3 </h2>
+</body>
+
+</html>

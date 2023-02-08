@@ -1,0 +1,23 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+
+<body>
+	<h2> 태그 selector </h2>
+	
+	<hr>
+	
+	<h2>클래스 selector</h2>
+	
+	<hr>
+	
+	<h2> 아이디 selector</h2>
+	
+	
+	
+	
+</body>
+</html>

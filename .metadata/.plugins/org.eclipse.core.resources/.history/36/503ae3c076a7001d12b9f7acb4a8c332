@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<!--  body안에 자바스크립트태그를 이용해서 js를 쓸수 있음. -->
+<body>
+
+
+
+
+
+
+<script>
+	alert("tlqkf");
+
+
+
+</script>
+
+
+
+
+</body>
+
+</html>

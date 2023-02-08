@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+
+<style>
+	h2{
+		color : red;
+	}
+	
+	
+	
+</style>
+
+
+</head>
+
+<body>
+	<h2> 태그 selector </h2>
+	
+	<hr>
+	
+	<h2 class = 'blue'>클래스 selector</h2>
+	
+	<hr>
+	
+	<h2> 아이디 selector</h2>
+	
+	
+	
+	
+</body>
+</html>

@@ -1,0 +1,33 @@
+
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>ex01</title>
+	
+	<style>
+		h1{
+			color : blue;
+		}
+		h2{
+			color : red;
+		}
+	
+	</style>
+
+</head>
+
+
+<body>
+	<h1>CSS시작</h1>
+
+	<br>
+	
+	<h1>hello CSS</h1>
+
+</body>
+
+
+
+</html>

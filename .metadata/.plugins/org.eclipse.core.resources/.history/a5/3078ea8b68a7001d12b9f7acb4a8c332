@@ -1,0 +1,27 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+
+<body>
+	<h2>체크박스 버튼: 다중선택</h2>
+	
+	<form action = "#">
+	
+		<input type = "checkbox" name = "color" value = "blue">Blue<br>
+		<input type = "checkbox" name = "color" value = "red">Red<br>
+		<input type = "checkbox" name = "color" value = "orange">Orange<br>
+
+		<input type = "submit" value = "전송">	
+	
+	</form>
+	
+	
+	
+
+
+</body>
+
+</html>

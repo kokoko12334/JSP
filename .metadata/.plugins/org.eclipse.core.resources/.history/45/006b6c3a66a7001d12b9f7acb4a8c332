@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+	
+	<h2> form 태그</h2>
+	
+	<!-- name: form의 이름지정(자바스크립트처리할때 지정)
+	 	action: form이 전송되는서버쪽 url/파일(submit제출시에)
+	 	method: 전송 방법 설정 
+	 	
+	 	input태그 : 사용자로부터 입력을 받을 수 있는 입력필드 정의
+	 	type: 입력형식 지정
+	 	name: 서버로 전송되는 데이터이름
+	 -->
+	
+	
+	<form name = "LoginForm" action = "jspPage.jsp" method = "get">
+		아이디: <input type = "text" name ="id"><br>
+		비밀번호: <input type = "password" name = "pwd"><br>
+		<input type = "submit" value = "로그인"> <!-- form action이랑 연동 -->
+	</form>
+
+
+</body>
+</html>
