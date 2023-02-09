@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<!-- 회원가입 폼 만들기 -->
+
+
+<body>
+	
+	<form name = "loginForm" action = "#" >
+		아이디:<input type = "text" name = "id" id = "id" ><br>
+		비밀번호:<input type = "text" name= "pwd"  id = "pwd"><br>
+		비밀번호 확인<input type = "text" name = "pwd_check" id = "pwd_check"><br> 
+		<button type="button" onclick = "check()">확인</button><br>  <!-- button의 디폴트값이 submit이라서 type=button으로 해야함 -->
+		
+		이름<input type = "text" name = "name"><br>
+		전화번호<input type = "text" name = "tel"><br>
+		주소<input type = "text" name = "adr"><br>
+		
+		<input type = "button"  onclick ="loginForm_check()" value= "회원가입">
+	
+	
+	</form>
+	
+	
+	<script>
+		function loginForm_check(){
+			
+			var id = document.loginForm.id.value;   //form의 이름.input의 이름.값
+			var pwd = document.loginForm.pwd.value;
+			var pwd_check = document.loginForm.pwd_check.value;
+			
+			if(id == null || id == ""){
+				alert("아이디를 입력하세요.");
+				document.loginForm.id.focus();
+				return ;
+			}
+			
+			if(pwd == null || pwd == ""){
+				alert("비밀번호를 입력하세요");
+				document.loginForm.pwd.focus();
+				return ;
+			}
+			
+			document.loginForm.submit();  // input submit처럼 서버로 보내짐
+			
+		}
+	
+		
+		
+		function check(){
+			var pwd = document.getElementById('pwd').value;   //id로 받아보기
+			var pwd_check = document.getElementById("pwd_check").value;
+			if (pwd != pwd_check){
+				alert("맞지 않습니다.")
+			}else{alert("확인")}
+			
+		}
+	
+	</script>
+
+
+
+</body>
+
+
+</html>
