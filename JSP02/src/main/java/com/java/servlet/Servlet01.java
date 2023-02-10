@@ -10,7 +10,7 @@ import javax.servlet.http.HttpServletRequest;
 import javax.servlet.http.HttpServletResponse;
 
 //@는 어노테이션 : 메타 데이터
-@WebServlet("/hell") //웹주소의 경로 지정, 최상단(default값으로 프로젝트이름인 JSP02/hell) 다음 경로
+@WebServlet("/hell") //웹주소의 경로 지정, 최상단(default값으로 프로젝트이름인 JSP02/hell) 다음 경로 //패키지경로 달라도 됨 단 클래스이름이 같으면 안됨
 public class Servlet01 extends HttpServlet {
 	private static final long serialVersionUID = 1L;
        
