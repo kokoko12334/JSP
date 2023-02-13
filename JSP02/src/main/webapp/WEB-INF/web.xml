@@ -29,4 +29,59 @@
   
   
   
+  
+  <servlet>
+  	
+  	<servlet-name> myServlet2 </servlet-name>
+  	
+  	
+  	<servlet-class> com.java.servlet.Servlet08 </servlet-class>
+  	<!-- 초기화 파라미터는 servlet 태그안에 위치해야 한다.  이 서블렛에서만 사용가능-->
+  	<init-param>
+  		<param-name> id </param-name>
+  		<param-value> hong </param-value>
+  	</init-param>
+  	
+  	<init-param>
+  		<param-name> pwd </param-name>
+  		<param-value> 1234 </param-value>
+  	</init-param>
+  	
+  </servlet>
+  
+  
+  <servlet-mapping>
+  
+  	<servlet-name>myServlet2</servlet-name>
+  	
+  	<url-pattern> /initParam </url-pattern>
+  
+  </servlet-mapping>
+  
+  
+  <!-- 여러 서블랫에서 공유해서 사용하는 context-param -->
+  
+  <context-param>
+  	
+  	<param-name> name </param-name>
+  	
+  	<param-value> 홍길동 </param-value>
+  
+  </context-param>
+  
+  <context-param>
+  	
+  	<param-name> age </param-name>
+  	
+  	<param-value> 20 </param-value>
+  
+  </context-param>
+  
+  
+  
+  
+  
+  
+  
+  
 </web-app>
