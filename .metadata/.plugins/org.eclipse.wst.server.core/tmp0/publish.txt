@@ -1,5 +1,5 @@
 #Tomcat publish data
-#Tue Feb 14 15:13:57 KST 2023
+#Wed Feb 15 15:08:13 KST 2023
 org.eclipse.jst.jee.server\:JSP04=C\:\\Users\\1102-17\\Desktop\\down\\apache-tomcat-9.0.71\\wtpwebapps\\JSP04
 org.eclipse.jst.jee.server\:Exam01=C\:\\Users\\1102-17\\Desktop\\down\\apache-tomcat-9.0.71\\wtpwebapps\\Exam01
 org.eclipse.jst.jee.server\:JSP02=C\:\\Users\\1102-17\\Desktop\\down\\apache-tomcat-9.0.71\\wtpwebapps\\JSP02

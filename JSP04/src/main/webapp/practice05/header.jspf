@@ -1,0 +1,16 @@
+<%@ page language="java" contentType="text/html; charset=UTF-8"
+    pageEncoding="UTF-8"%>
+
+<%--
+	jspf (java server page fragment)파일은 jsp의 일부분으로 다른 jsp파일에 포함되도록 만들어졌다.(확장자이름만 다를뿐, jsp랑 같은 기능임)
+	반복 사용되는 것을 jspf로 만들어서 jsp파일에 include한다.
+
+ --%>
+
+<div>
+    	<h2> header 부분</h2>
+    </div>
+
+
+
+
