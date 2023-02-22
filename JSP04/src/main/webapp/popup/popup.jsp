@@ -9,6 +9,9 @@
 <body>
 
 	<% 
+	
+		request.setCharacterEncoding("UTF-8");
+	
 		if(request.getParameter("pop") != null){
 			String popup = request.getParameter("pop");
 			if(popup.equals("notshow")){
