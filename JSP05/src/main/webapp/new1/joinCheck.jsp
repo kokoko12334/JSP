@@ -60,10 +60,10 @@
 			
 			if(su == 1){
 				System.out.println("insert 성공");
-				response.sendRedirect("dbshow.jsp");
+				response.sendRedirect("joinForm.html");
 			}else{
 				System.out.println("insert 실패");
-				response.sendRedirect("dbshow.jsp");
+				response.sendRedirect("joinForm.html");
 			}
 			
 			

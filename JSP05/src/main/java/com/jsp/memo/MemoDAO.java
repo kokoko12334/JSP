@@ -52,7 +52,7 @@ public class MemoDAO {
 			
 			
 			
-			result = pstmt.executeUpdate();
+			result = pstmt.executeUpdate();  //실행되면 1로 됨.
 			
 		}catch(Exception e){
 			e.printStackTrace();
@@ -126,6 +126,45 @@ public class MemoDAO {
 		return list;
 		
 	}
+	
+	
+	
+	public int memoDelete(int memoid) {
+		int result = 0;
+		
+		String query = "DELETE FROM memo WHERE memoid = ?";
+		
+		try {
+			Class.forName(driver);
+			conn = DriverManager.getConnection(url, uid, upw);
+			pstmt = conn.prepareStatement(query);
+			
+			pstmt.setInt(1, memoid);
+			
+			result = pstmt.executeUpdate(); //실행과 변경사항 업데이트를 동시에 다하면 1 반환
+			
+		}catch(Exception e) {
+			e.printStackTrace();
+		}finally {
+			try {
+				if(pstmt != null)pstmt.close();
+				if(conn != null)conn.close();
+			}catch(Exception e2) {
+				
+			}
+			
+		}
+		
+		return result;
+	}
+	
+	
+	
+	
+	
+	
+	
+	
 	
 	
 	

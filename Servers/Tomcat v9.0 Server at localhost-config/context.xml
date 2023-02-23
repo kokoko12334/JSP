@@ -26,4 +26,10 @@
     <!--
     <Manager pathname="" />
     -->
+    <Resource auth="Container" driverClassNmae="oracle.jdbc.driver.OracleDriver" loginTimeout="10" maxActive="50" maxIdle="20" maxWait="2000" name="jdbc/oracle" password="jsp123" testOnBorrow="true" type="javax.sql.DataSource" url="jdbc:oracle:thin:@localhost:1521:xe" username="c##JSPUSER"/>
+    
+    
+    
+    
+  
 </Context>
