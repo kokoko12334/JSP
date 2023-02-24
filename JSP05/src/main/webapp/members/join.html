@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+<head>
+<meta charset="UTF-8">
+<title>Insert title here</title>
+</head>
+<body>
+
+	<form name = "join_form" action = "joinCheck.jsp" method = "post">
+		
+		이름: <input type = "text" name = "name"><br>
+		아이디: <input type = "text" name = "id" ><br>
+		비밀번호: <input type = "text" name = "pw"><br>
+		비밀번호 확인: <input type = "text" name = "pw_check"><br>
+		이메일: <input type = "text" name = "email"><br>
+		주소: <input type = "text" name = "address"><br>
+		<input type = "button" value = "완료" onclick = "joinform_check()">
+	</form>
+
+	<script>
+		function joinform_check(){
+			var id = document.join_form.id.value;
+			var pw = document.join_form.pw.value;
+			var pw_check = document.join_form.pw_check.value;
+		
+			if(id == null || id == ""){
+				alert("아이디를 입력해주세요.")
+				document.join_form.id.focus()
+				return;
+			}
+		
+			if(pw == null || pw == ""){
+				alert("비밀번호를 입력해주세요.")
+				document.join_form.pw.focus()
+				return;
+			}
+			
+			if(pw != pw_check){
+				alert("비밀번호가 일치하지 않습니다.")
+				document.join_form.pw.focus()
+				return;
+			}
+			
+		}
+	
+		
+		
+		
+		
+	</script>
+
+
+
+</body>
+</html>
