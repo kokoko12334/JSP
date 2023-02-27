@@ -24,7 +24,7 @@ public class MembersDAO {
 	
 	private static MembersDAO instance = new MembersDAO();
 	
-	private static MembersDAO getInstance() {
+	public static MembersDAO getInstance() {
 		return instance; 
 	}
 	

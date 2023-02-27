@@ -1,9 +1,12 @@
 <!DOCTYPE html>
+
 <html>
+
 <head>
 <meta charset="UTF-8">
 <title>Insert title here</title>
 </head>
+
 <body>
 
 	<form name = "join_form" action = "joinCheck.jsp" method = "post">
@@ -37,10 +40,11 @@
 			
 			if(pw != pw_check){
 				alert("비밀번호가 일치하지 않습니다.")
-				document.join_form.pw.focus()
+				document.join_form.pw_check.focus()
 				return;
 			}
 			
+			document.join_form.submit();
 		}
 	
 		
