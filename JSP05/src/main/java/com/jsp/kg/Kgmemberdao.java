@@ -21,6 +21,7 @@ public class Kgmemberdao {
 	public Kgmemberdao() {
 		
 		
+		
 		try {
 			
 			Context context = new InitialContext();
@@ -48,9 +49,10 @@ public class Kgmemberdao {
 		ResultSet rs = null;
 		
 		try {
+			
 			conn = ds.getConnection();
 			pstmt = conn.prepareStatement("SELECT * FROM KGMEMBER");
-			rs = pstmt.executeQuery(null);
+			rs = pstmt.executeQuery();
 			
 			while(rs.next()) {
 				String id = rs.getString("ID");
@@ -58,8 +60,8 @@ public class Kgmemberdao {
 				String name = rs.getString("name");
 				int age = rs.getInt("age");
 				String tel = rs.getString("tel");
-				
-				
+				Kgmemberdto dto = new Kgmemberdto(id,pwd,name,age,tel);
+				list.add(dto);
 				
 			}
 			
